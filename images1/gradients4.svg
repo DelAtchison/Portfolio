@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="149.999px" height="200px" viewBox="0 0 149.999 200" enable-background="new 0 0 149.999 200" xml:space="preserve">
+<linearGradient id="pinkblue_2_" gradientUnits="userSpaceOnUse" x1="-280.4033" y1="-12.481" x2="-198.5777" y2="212.3332">
+	<stop  offset="0" style="stop-color:#F05066"/>
+	<stop  offset="1" style="stop-color:#26ADE4"/>
+</linearGradient>
+<rect id="pinkblue" x="-314.49" y="-0.074" fill="url(#pinkblue_2_)" width="149.999" height="200"/>
+<linearGradient id="bluegreen_1_" gradientUnits="userSpaceOnUse" x1="-123.5752" y1="212.3931" x2="-41.7093" y2="-12.5316">
+	<stop  offset="0" style="stop-color:#78C372"/>
+	<stop  offset="1" style="stop-color:#26ADE4"/>
+</linearGradient>
+<rect id="bluegreen" x="-157.814" y="-0.069" fill="url(#bluegreen_1_)" width="150.346" height="200"/>
+<linearGradient id="pinkorange_1_" gradientUnits="userSpaceOnUse" x1="-439.7305" y1="212.3325" x2="-357.9052" y2="-12.4807">
+	<stop  offset="0" style="stop-color:#F05B71"/>
+	<stop  offset="1" style="stop-color:#F4805A"/>
+</linearGradient>
+<rect id="pinkorange" x="-473.818" y="-0.074" fill="url(#pinkorange_1_)" width="150" height="200"/>
+<linearGradient id="pinkblue_3_" gradientUnits="userSpaceOnUse" x1="34.0869" y1="-12.4067" x2="115.9122" y2="212.4065">
+	<stop  offset="0" style="stop-color:#8B80BC"/>
+	<stop  offset="1" style="stop-color:#26ADE4"/>
+</linearGradient>
+<rect id="pinkblue_1_" fill="url(#pinkblue_3_)" width="149.999" height="200"/>
+</svg>

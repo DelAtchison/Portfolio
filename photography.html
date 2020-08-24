@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Adele Atchison's Portfolio</title>
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="description" content="Home Page of Adele Atchison's Portfolio">
+  <meta name="author" content="Adele Atchison">
+  <meta name="keywords" content="HTML,CSS,JavaScript,Illustration,Illustrator,Design,Designer,Photography,Portfolio,Northern Ireland,">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Lato" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/portfoliostyle.css">
+  <link rel="stylesheet" href="css/fontawesome-free-5.0.1/web-fonts-with-css/css/fontawesome-all.css">
+
+    
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66696200-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-66696200-1');
+</script>
+
+</head>
+<body>
+    <!--<div id="splash" style="text-align: center;vertical-align: middle;font-size: 20px;">hi there</div>-->
+    
+    <div id="imgpage"><div id="close"><i class="fa fa-times fa-2x"></i></div>
+    <div class="navigationbuttons"><div id="prev_button"><i class="fa fa-chevron-left fa-5x" aria-hidden="false"></i></div><div id="next_button"><i class="fa fa-chevron-right fa-5x" aria-hidden="false"></i></div></div>
+</div>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div id="containerouter" data-page="photography">
+        <input id="sidebar_button" type="checkbox" role="button"><label for="sidebar_button"><span><i class="fas fa-bars fa-2x"></i></span></label></input>
+        <div id="sidebar">
+            <div id="myicon"></div>
+            <ul>
+                <li><a href="./" data-page="default">Home</a></li>
+                <li><a href="about.html" data-page="default">About</a></li>
+                <li><a href="design.html" data-page="design">Design</a></li>
+                <li><a href="illustration.html" data-page="illustration">Illustration</a></li>
+                <li><a href="motiongraphics.html" data-page="photography">Motion Graphics</a></li>
+                <li><a href="http://www.adeleatchison.co.uk/blog/" data-page="blog">Blog</a></li>
+            </ul>
+            
+            
+    <div class="footer">
+        <a href="https://github.com/DelAtchison"><i class="fab fa-github fa-fw fa-2x"></i></a>
+        <a href="https://www.instagram.com/deliinthesky/"><i class="fab fa-instagram fa-fw fa-2x"></i></a>
+        <a href="https://twitter.com/DeliAtchison"><i class="fab fa-twitter fa-fw fa-2x"></i></a>
+           </div>
+        </div>
+    
+      <div class="containerinner">
+        <div id="gallery">
+            <noscript><b>Javascript is disabled on your browser.<br> Please enable it to view this online portfolio as it was designed.</b></noscript>
+     
+                      
+                
+            
+        </div>
+      </div>
+  </div>
+<!-- Scripts --------->
+    <script>
+        
+/* This is the entire Gallery entry for the page, it's all in here. All of it. Really */
+        var works = [
+            
+            { 'name' : "I See Fire",
+             'tbimage' : "images/thumbnails/Photography/fire.png",
+             'image' : "images/images/Photography/fire.png",
+             'description' : "Photo of the Temple Burn in Londonderry for part of a project with St. Columb's Park House to be used on their blog.",
+             'year' : "2014"
+            },
+
+              { 'name' : "Eagle Owl",
+             'tbimage' : "images/thumbnails/Photography/eagleowl.png",
+             'image' : "images/images/Photography/eagleowl.png",
+             'description' : "Photo of an Eagle Owl taken at a touring owl charity display in the Lake District.",
+             'year' : "2015" 
+            },
+
+             { 'name' : "Foxglove",
+             'tbimage' : "images/thumbnails/Photography/foxglove.png",
+             'image' : "images/images/Photography/foxglove.png",
+             'description' : "Some wild foxglove photographed in the Lake District.",
+             'year' : "2015"
+            },
+
+            { 'name' : "Gull",
+             'tbimage' : "images/thumbnails/Photography/gull.png",
+             'image' : "images/images/Photography/gull.png",
+             'description' : "A black capped gull photographed at Lake Windermere in the Lake District.",
+             'year' : "2015"
+            },
+
+            { 'name' : "Chaffinch",
+             'tbimage' : "images/thumbnails/Photography/ladychaffinch.png",
+             'image' : "images/images/Photography/ladychaffinch.png",
+             'description' : "A female chaffinch photographed at Watendlath in the Lake District.",
+             'year' : "2015"
+            },
+
+            { 'name' : "Lone Arrow",
+             'tbimage' : "images/thumbnails/Photography/lonearrow.png",
+             'image' : "images/images/Photography/lonearrow.png",
+             'description' : "Photo of a single Red Arrow taken during a display at the Portrush Air Show.",
+             'year' : "2015"
+            },
+              
+            { 'name' : "Golden Globe",
+             'tbimage' : "images/thumbnails/Photography/sunsetglobe.png",
+             'image' : "images/images/Photography/sunsetglobe.png",
+             'description' : "Part of my panorama globes series featuring a beach landscape during sunset.",
+             'year' : "2012"
+            },
+
+             { 'name' : "Coastal Globe",
+             'tbimage' : "images/thumbnails/Photography/panoramaglobe4.png",
+             'image' : "images/images/Photography/panoramaglobe4.png",
+             'description' : "Part of my panorama globes series featuring a costal landscape just before golden hour.",
+             'year' : "2012"
+            },
+ 
+            { 'name' : "Purple Mirror",
+             'tbimage' : "images/thumbnails/Photography/purplenight.png",
+             'image' : "images/images/Photography/purplenight.png",
+             'description' : "Photo of a near perfectly still evening at Lough Neagh during sunset. This photo is unedited in any way.",
+             'year' : "2013"
+            },
+            
+            { 'name' : "Winter Wonderland",
+             'tbimage' : "images/thumbnails/Photography/winterwonderland4.png",
+             'image' : "images/images/Photography/winterwonderland4.png",
+             'description' : "Photo of some snow on an evergreen in my back garden one year.",
+             'year' : "2013"
+            }, 
+            
+            { 'name' : "Pool Floats",
+             'tbimage' : "images/thumbnails/Photography/pool.png",
+             'image' : "images/images/Photography/pool.png",
+             'description' : "An experiment on depth of field with some swiming pool floats.",
+             'year' : "2014"
+            },  
+            
+              { 'name' : "African Violet",
+             'tbimage' : "images/thumbnails/Photography/africanviolet.png",
+             'image' : "images/images/Photography/africanviolet.png",
+             'description' : "Photo of an african violet plant on my kitchen windowsill.",
+             'year' : "2012"
+            },
+            
+        ];
+    /* End of Gallery */
+    </script>
+    <script src="cookie_banner.js"></script> 
+    <script src="galleryscript.js"></script> 
+  
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

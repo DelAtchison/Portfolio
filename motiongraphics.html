@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Adele Atchison's Portfolio</title>
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="description" content="Home Page of Adele Atchison's Portfolio">
+  <meta name="author" content="Adele Atchison">
+  <meta name="keywords" content="HTML,CSS,JavaScript,Illustration,Illustrator,Design,Designer,Photography,Portfolio,Northern Ireland,">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Lato" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/portfoliostyle.css">
+  <link rel="stylesheet" href="css/fontawesome-free-5.0.1/web-fonts-with-css/css/fontawesome-all.css">
+
+    
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66696200-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-66696200-1');
+</script>
+
+</head>
+<body>
+    <!--<div id="splash" style="text-align: center;vertical-align: middle;font-size: 20px;">hi there</div>-->
+    
+    <div id="imgpage"><div id="close"><i class="fa fa-times fa-2x"></i></div>
+    <div class="navigationbuttons"><div id="prev_button"><i class="fa fa-chevron-left fa-5x" aria-hidden="false"></i></div><div id="next_button"><i class="fa fa-chevron-right fa-5x" aria-hidden="false"></i></div></div>
+</div>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div id="containerouter" data-page="photography">
+        <input id="sidebar_button" type="checkbox" role="button"><label for="sidebar_button"><span><i class="fas fa-bars fa-2x"></i></span></label></input>
+        <div id="sidebar">
+            <div id="myicon"></div>
+            <ul>
+                <li><a href="./" data-page="default">Home</a></li>
+                <li><a href="design.html" data-page="design">Design</a></li>
+                <li><a href="illustration.html" data-page="illustration">Illustration</a></li>
+                <li><a href="motiongraphics.html" data-page="photography">Motion Graphics</a></li>
+                <li><a href="about.html" data-page="default">About</a></li>
+                <li><a href="http://www.adeleatchison.co.uk/blog/" data-page="blog">Blog</a></li>
+            </ul>
+            
+            
+    <div class="footer">
+        <a href="https://github.com/DelAtchison"><i class="fab fa-github fa-fw fa-2x"></i></a>
+        <a href="https://www.instagram.com/deliinthesky/"><i class="fab fa-instagram fa-fw fa-2x"></i></a>
+        <a href="https://twitter.com/DeliAtchison"><i class="fab fa-twitter fa-fw fa-2x"></i></a>
+           </div>
+        </div>
+    
+      <div class="containerinner" style="margin-top:2.5%">
+          <div class="video-container">
+          <iframe width="98%"  src="https://www.youtube.com/embed/agPzBRjDsdI?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="gallery" style="margin-top:0.5%;">
+            <noscript><b>Javascript is disabled on your browser.<br> Please enable it to view this online portfolio as it was designed.</b></noscript>
+     
+                      
+                
+            
+        </div>
+          
+      </div>
+  </div>
+<!-- Scripts --------->
+    <script>
+        
+/* This is the entire Gallery entry for the page, it's all in here. All of it. Really */
+        var works = [
+
+              { 'name' : "Home is an Island",
+             'tbimage' : "images/thumbnails/Design/animationthumb.gif",
+             'image' : "images/thumbnails/Design/animation2.gif",
+             'description' : "A personal project that combined an isometric vector illustration with some animation in After Effects to create a small motion piece. A higher quality video version is  available on my"  + ' <a href="https://www.instagram.com/p/Br3DrSUjeml/">instagram </a>',
+             'year' : "2018"
+            },
+
+              { 'name' : "Goldfish Pond",
+             'tbimage' : "images/thumbnails/Design/fishthumb.gif",
+             'image' : "images/thumbnails/Design/fish.gif",
+             'description' : "Another personal project combining vector illustration and motion graphics through After Effects. A higher quality video version is available on my"   + ' <a href="https://www.instagram.com/p/Br8eRwRDR_B/">instagram </a>',
+             'year' : "2018" 
+            },
+
+        ];
+    /* End of Gallery */
+    </script>
+    <script src="cookie_banner.js"></script> 
+    <script src="galleryscript.js"></script> 
+  
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

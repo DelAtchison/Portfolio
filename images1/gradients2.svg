@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="149.999px" height="200px" viewBox="0 0 149.999 200" enable-background="new 0 0 149.999 200" xml:space="preserve">
+<g id="Layer_1">
+	<linearGradient id="pinkblue_4_" gradientUnits="userSpaceOnUse" x1="34.0869" y1="-12.4023" x2="115.9125" y2="212.4118">
+		<stop  offset="0" style="stop-color:#F05066"/>
+		<stop  offset="1" style="stop-color:#4E8CCA"/>
+	</linearGradient>
+	<rect id="pinkblue" y="0.005" fill="url(#pinkblue_4_)" width="149.999" height="200"/>
+	<linearGradient id="bluegreen_2_" gradientUnits="userSpaceOnUse" x1="190.915" y1="212.4717" x2="272.7809" y2="-12.453">
+		<stop  offset="0" style="stop-color:#78C372"/>
+		<stop  offset="1" style="stop-color:#26ADE4"/>
+	</linearGradient>
+	<rect id="bluegreen" x="156.676" y="0.01" fill="url(#bluegreen_2_)" width="150.346" height="200"/>
+	<linearGradient id="pinkorange_2_" gradientUnits="userSpaceOnUse" x1="-125.2402" y1="212.4111" x2="-43.4149" y2="-12.4021">
+		<stop  offset="0" style="stop-color:#F05B71"/>
+		<stop  offset="1" style="stop-color:#F4805A"/>
+	</linearGradient>
+	<rect id="pinkorange" x="-159.328" y="0.005" fill="url(#pinkorange_2_)" width="150" height="200"/>
+	<linearGradient id="pinkblue_5_" gradientUnits="userSpaceOnUse" x1="348.5771" y1="-12.3281" x2="430.4024" y2="212.4851">
+		<stop  offset="0" style="stop-color:#8B80BC"/>
+		<stop  offset="1" style="stop-color:#26ADE4"/>
+	</linearGradient>
+	<rect id="pinkblue_1_" x="314.49" y="0.079" fill="url(#pinkblue_5_)" width="149.999" height="200"/>
+</g>
+<g id="Layer_2" display="none">
+	<linearGradient id="pinkblue_6_" gradientUnits="userSpaceOnUse" x1="53.2588" y1="-19.9238" x2="96.7411" y2="99.5429">
+		<stop  offset="0" style="stop-color:#F05066"/>
+		<stop  offset="1" style="stop-color:#4E8CCA"/>
+	</linearGradient>
+	<rect id="pinkblue_3_" y="-0.541" display="inline" fill="url(#pinkblue_6_)" width="149.999" height="80.698"/>
+	<linearGradient id="bluegreen_3_" gradientUnits="userSpaceOnUse" x1="210.0869" y1="99.5996" x2="253.61" y2="-19.979">
+		<stop  offset="0" style="stop-color:#78C372"/>
+		<stop  offset="1" style="stop-color:#26ADE4"/>
+	</linearGradient>
+	<rect id="bluegreen_1_" x="156.676" y="-0.539" display="inline" fill="url(#bluegreen_3_)" width="150.346" height="80.698"/>
+	<linearGradient id="pinkorange_3_" gradientUnits="userSpaceOnUse" x1="-106.0693" y1="99.543" x2="-62.5867" y2="-19.9246">
+		<stop  offset="0" style="stop-color:#F05B71"/>
+		<stop  offset="1" style="stop-color:#F4805A"/>
+	</linearGradient>
+	<rect id="pinkorange_1_" x="-159.328" y="-0.541" display="inline" fill="url(#pinkorange_3_)" width="150" height="80.698"/>
+	<linearGradient id="pinkblue_7_" gradientUnits="userSpaceOnUse" x1="367.749" y1="-19.895" x2="411.2317" y2="99.5726">
+		<stop  offset="0" style="stop-color:#8B80BC"/>
+		<stop  offset="1" style="stop-color:#26ADE4"/>
+	</linearGradient>
+	<rect id="pinkblue_2_" x="314.49" y="-0.511" display="inline" fill="url(#pinkblue_7_)" width="149.999" height="80.699"/>
+</g>
+</svg>

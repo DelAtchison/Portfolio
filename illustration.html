@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Adele Atchison's Portfolio</title>
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="description" content="Home Page of Adele Atchison's Portfolio">
+  <meta name="author" content="Adele Atchison">
+  <meta name="keywords" content="HTML,CSS,JavaScript,Illustration,Illustrator,Design,Designer,Photography,Portfolio,Northern Ireland,">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Lato" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/portfoliostyle.css">
+  <link rel="stylesheet" href="css/fontawesome-free-5.0.1/web-fonts-with-css/css/fontawesome-all.css">
+
+    
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66696200-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-66696200-1');
+</script>
+
+</head>
+<body>
+    <!--<div id="splash" style="text-align: center;vertical-align: middle;font-size: 20px;">hi there</div>-->
+    
+    <div id="imgpage"><div id="close"><i class="fa fa-times fa-2x"></i></div>
+    <div class="navigationbuttons"><div id="prev_button"><i class="fa fa-chevron-left fa-5x" aria-hidden="false"></i></div><div id="next_button"><i class="fa fa-chevron-right fa-5x" aria-hidden="false"></i></div></div>
+</div>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div id="containerouter" data-page="illustration">
+        <input id="sidebar_button" type="checkbox" role="button"><label for="sidebar_button"><span><i class="fas fa-bars fa-2x"></i></span></label></input>
+        <div id="sidebar">
+            <div id="myicon"></div>
+            <ul>
+                <li><a href="./" data-page="default">Home</a></li>
+                <li><a href="design.html" data-page="design">Design</a></li>
+                <li><a href="illustration.html" data-page="illustration">Illustration</a></li>
+                <li><a href="motiongraphics.html" data-page="photography">Motion Graphics</a></li>
+                <li><a href="about.html" data-page="default">About</a></li>
+                <li><a href="http://www.adeleatchison.co.uk/blog/" data-page="blog">Blog</a></li>
+            </ul>
+            
+    <div class="footer">
+        <a href="https://github.com/DelAtchison"><i class="fab fa-github fa-fw fa-2x"></i></a>
+        <a href="https://www.instagram.com/deliinthesky/"><i class="fab fa-instagram fa-fw fa-2x"></i></a>
+        <a href="https://twitter.com/DeliAtchison"><i class="fab fa-twitter fa-fw fa-2x"></i></a>
+           </div>
+        </div>
+    
+      <div class="containerinner">
+        <div id="gallery">
+            <noscript><b>Javascript is disabled on your browser.<br> Please enable it to view this online portfolio as it was designed.</b></noscript>
+          
+        </div><br>
+      </div>
+  </div>
+<!-- Scripts --------->
+    <script>
+       
+/* This is the entire Gallery entry for the page, it's all in here. All of it. Really */
+        var works = [
+            
+            { 'name' : "Sassy Sparrow",
+             'tbimage' : "images/thumbnails/illustration/sassysparrow.png",
+             'image' : "images/images/illustration/sassysparrow.png",
+             'description' : "One of two 'Sassy Bird' illustrations. Partner to 'No Forgiveness' and created in Adobe Photoshop.",
+             'year' : "2017"
+            },
+            
+              { 'name' : "Crystal Prince",
+             'tbimage' : "images/thumbnails/illustration/crystalprince.png",
+             'image' : "images/images/illustration/crystalprince.png",
+             'description' : "An illustration of a crystal infused stag as part of my Stag Princes series. Created in Adobe Illustrator.",
+             'year' : "2017"
+            },
+
+              { 'name' : "Flower Prince",
+             'tbimage' : "images/thumbnails/illustration/flowerprince.png",
+             'image' : "images/images/illustration/flowerprince.png",
+             'description' : "An illustration of a flower infused stag as part of my Stag Princes series. This one is a fawn prince to match the softer floral theme. Created in Adobe Illustrator.",
+             'year' : "2017" 
+            },
+
+             { 'name' : "No Forgiveness",
+             'tbimage' : "images/thumbnails/illustration/noforgiveness.png",
+             'image' : "images/images/illustration/noforgiveness.png",
+             'description' : "One of two 'Sassy Birds' illustrations. Created with the association of crows with death and magic in mind. Created in Adobe Photoshop",
+             'year' : "2017"
+            },
+            
+            { 'name' : "Star Prince",
+             'tbimage' : "images/thumbnails/illustration/starprince.png",
+             'image' : "images/images/illustration/starprince.png",
+             'description' : "A celestial infused stag illustration as part of my Stag Princes series. Created in Adobe Illustrator.",
+             'year' : "2017"
+            },
+            
+            { 'name' : "Nora Can Do It",
+             'tbimage' : "images/thumbnails/illustration/noracandoit.png",
+             'image' : "images/images/illustration/noracandoit.png",
+             'description' : "A traditional illustration piece of the default female player character from Fallout 4 in a take on the 'We Can Do It' iconic war posters. The lore behind the female character and the narrative of her being thrust into a post apocalyptic world while managing to thrive and rebuild the remains of Boston fit the theme of a 'Woman Who Could' and seemed appropriate for this illustration. Created using markers and coloured pencils. Fallout 4 and characters © Bethesda.",
+             'year' : "2017"
+            },
+
+            { 'name' : "Okami",
+             'tbimage' : "images/thumbnails/illustration/okamiamaterasu.png",
+             'image' : "images/images/illustration/okamiamaterasu.png",
+             'description' : "A digital illustration of Okami Amaterasu from the game Okami with the Jade 'Blade of Kusanagi'. Created in Adobe Photoshop. Okami © Capcom and Clover Leaf Studios",
+             'year' : "2013"
+            },
+
+            { 'name' : "Reglitch",
+             'tbimage' : "images/thumbnails/illustration/reglitch.png",
+             'image' : "images/images/illustration/reglitch.png",
+             'description' : "A digital illustration of a players World of Warcraft Pandaren Mistweaver Monk Character. Created in Adobe Photoshop. World of Warcraft © Blizzard Entertainment.",
+             'year' : "2016"
+            },
+
+           
+
+        ];
+    /* End of Gallery */
+    </script>
+    <script src="cookie_banner.js"></script> 
+    <script src="galleryscript.js"></script> 
+  
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

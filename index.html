@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Adele Atchison's Portfolio</title>
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="description" content="Home Page of Adele Atchison's Portfolio">
+  <meta name="author" content="Adele Atchison">
+  <meta name="keywords" content="HTML,CSS,JavaScript,Illustration,Illustrator,Design,Designer,Photography,Portfolio,Northern Ireland,">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Lato" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/portfoliostyle.css">
+  <link rel="stylesheet" href="css/fontawesome-free-5.0.1/web-fonts-with-css/css/fontawesome-all.css">
+
+    
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66696200-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-66696200-1');
+</script>
+
+</head>
+<body>
+    <!--<div id="splash" style="text-align: center;vertical-align: middle;font-size: 20px;">hi there</div>-->
+    
+    <div id="imgpage"><div id="close"><i class="fa fa-times fa-2x"></i></div>
+    <div class="navigationbuttons"><div id="prev_button"><i class="fa fa-chevron-left fa-5x" aria-hidden="false"></i></div><div id="next_button"><i class="fa fa-chevron-right fa-5x" aria-hidden="false"></i></div></div>
+</div>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div id="containerouter" data-page="default">
+        <input id="sidebar_button" type="checkbox" role="button"><label for="sidebar_button"><span><i class="fas fa-bars fa-2x"></i></span></label></input>
+        <div id="sidebar">
+            <div id="myicon"></div>
+            <ul>
+                <li><a href="./" data-page="default">Home</a></li>
+                <li><a href="design.html" data-page="design">Design</a></li>
+                <li><a href="illustration.html" data-page="illustration">Illustration</a></li>
+                <li><a href="motiongraphics.html" data-page="photography">Motion Graphics</a></li>
+                <li><a href="about.html" data-page="default">About</a></li>
+                <li><a href="http://www.adeleatchison.co.uk/blog/" data-page="blog">Blog</a></li>
+            </ul>
+            
+            
+    <div class="footer">
+        <a href="https://github.com/DelAtchison"><i class="fab fa-github fa-fw fa-2x"></i></a>
+        <a href="https://www.instagram.com/deliinthesky/"><i class="fab fa-instagram fa-fw fa-2x"></i></a>
+        <a href="https://twitter.com/DeliAtchison"><i class="fab fa-twitter fa-fw fa-2x"></i></a>
+           </div>
+        </div>
+    
+      <div class="containerinner">
+        <div id="gallery">
+            <div class="twelve columns header"><h1>Adele Atchison </h1><h5> <a href="illustration.html">Illustratior</a> | <a href="design.html">Designer</a> | <a href="motiongraphics.html">Motion Graphics</a></h5>
+            </div>
+            <noscript><b>Javascript is disabled on your browser.<br> Please enable it to view this online portfolio as it was designed.</b></noscript>
+                
+            
+        </div>
+          <div class="video-container" style="margin-top:-2.2%;">
+          <iframe width="98%"  src="https://www.youtube.com/embed/agPzBRjDsdI?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><br>
+      </div>
+  </div>
+<!-- Scripts --------->
+    <script>
+        
+/* This is the entire Gallery entry for the page, it's all in here. All of it. Really */
+        var works = [
+            
+            { 'name' : "Cherry Blossoms",
+             'tbimage' : "images/thumbnails/illustration/cherryblossom.png",
+             'image' : "images/images/illustration/cherryblossom.png",
+               'description' : "A design created to be a repeating pattern and series of individual cherry blossom floral assets for use on wedding stationary. Designed for "+ '<a href="http://www.goldlinkstationery.com/New_Cherry_Blossom_p/newblossom.htm">Goldlink Stationary.</a>' + "  Created using Adobe Illustrator.",
+             'year' : "2018" 
+            },
+            
+            { 'name' : "Flower Prince",
+             'tbimage' : "images/thumbnails/illustration/flowerprince.png",
+             'image' : "images/images/illustration/flowerprince.png",
+             'description' : "An illustration of a flower infused stag as part of my Stag Princes series. This one is a fawn prince to match the softer floral theme. Created in Adobe Illustrator.",
+             'year' : "2017" 
+            },
+            
+            { 'name' : "Multifaceted",
+             'tbimage' : "images/thumbnails/Design/multifaceted.png",
+             'image' : "images/images/Design/multifaceted.png",
+             'description' : "A key illustration from a self branding project from 2016. I originally used the illustration as a setpiece in my earlier portfolio design and branding identity as well as using the colours from it for my colour scheme. Created in Adobe Illustrator.",
+             'year' : "2016"
+            },
+            
+
+        ];
+    /* End of Gallery */
+    </script>
+    <script src="cookie_banner.js"></script> 
+    <script src="galleryscript.js"></script> 
+    
+  
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
